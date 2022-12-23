@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Figma Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section class="bg">
+
+        <nav>
+          
+            <div>
+                <img src="./Assets/Logo.png" alt="logo">
+            </div>
+            <div class="Account">
+                <button class="singin">Sign in</button>
+                <button class="singup">Sing up</button>
+            </div>
+        </nav>
+
+<div class="container">
+        <div id="glass-effect">
+            <h3>Create Your Account</h3>
+            <form>
+                <label for="name"></label>
+                <input type="text" placeholder="Enter your name">
+                <label for="email"></label>
+                <input type="email" placeholder="Enter your email">
+                <label for="password"></label>
+                <input type="password" placeholder="Enter your password">
+            </form>
+
+            <p class="acc" id="acc1">By Clicking “Register” you agree<span> Privacy Policy</span></p>
+            <button class="register-btn" onclick="btn()">Register</button>
+            <p class="acc">Already have an account?<span> Sign In</span></p>
+        </div>
+
+        <div class="basic">
+            <h1>Advanced analytics to grow your business</h1>
+            <p class="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>
+                Diam ut id nisl tellus rhoncus, imperdiet</p>
+        </div>
+        </div>
+    </section>
+
+    <script>
+        function btn() {
+            alert("Hello")
+        }
+    </script>
+</body>
+
+</html>

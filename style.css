@@ -1,0 +1,160 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: white;
+    font-family: sans-serif;
+}
+
+.bg {
+    background-image: url(./Assets/BackgroundHero.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 700px;
+    background-position: bottom;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 140px;
+    padding-top: 15px;
+}
+
+.Account {
+    display: flex;
+    align-items: center;
+}
+
+.singin {
+    background: none;
+    border: none;
+    color: white;
+    padding: 20px;
+}
+
+.singup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    border-radius: 10px;
+    padding: 20px;
+    color: white;
+    border: 1px solid white;
+    height: 38px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin: 35px 140px 0;
+    gap: 282px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    width: 309px;
+    background: linear-gradient(83.95deg, rgba(27, 69, 180, 0.4) 3%, rgba(28, 39, 146, 0.4) 96.84%);
+    border: 1px solid white;
+    color: white;
+    border-radius: 10px;
+    padding: 13px 20px;
+    margin: 7px 0;
+}
+
+input::placeholder {
+    color: #CDD0D8;
+}
+
+.register-btn {
+    background: linear-gradient(112.8deg, #6A36FF -15.76%, #AC5FE6 102.86%);
+    width: 250px;
+    height: 40px;
+    border: none;
+    color: white;
+    font-size: 10px;
+    margin: 10px 0;
+    border-radius: 10px;
+}
+
+.basic {
+    padding-top: 46px;
+}
+
+#glass-effect {
+    background: linear-gradient(112.32deg, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0) 101.12%);
+    backdrop-filter: blur(39.5999px);
+    border-radius: 20px;
+    padding: 66px 25px;
+    text-align: center;
+}
+
+#acc1 {
+    margin-top: 20px;
+}
+
+.acc {
+    font-size: 13px;
+}
+
+span {
+    color: #0097FE;
+}
+
+h1 {
+    font-size: 45px;
+}
+
+.lorem {
+    font-size: 15px;
+}
+
+@media screen and (min-width: 360px) and (max-width:749px) {
+    .bg{
+        background-color: #1B45B4;
+        height: auto;
+    }
+    nav {
+        margin: 0;
+    }
+
+    nav img {
+        height: 26px;
+    }
+
+    .container {
+        margin: 0;
+        flex-direction: column-reverse;
+        gap: 50px;
+    }
+
+    input {
+        width: 209px;
+    }
+
+    form {
+        align-items: center;
+    }
+
+    .basic {
+        padding: 25px;
+    }
+
+    h1 {
+        font-size: 35px;
+    }
+
+    #glass-effect {
+        width: fit-content;
+        margin: auto;
+    }
+}
